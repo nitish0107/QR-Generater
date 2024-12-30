@@ -11,13 +11,15 @@ body{
     width: 90%;
     max-width: 550px;
     margin: 50px auto 0px;
-    background: rgb(238,238,228);
+    background: rgb(247, 247, 244);
     border-radius: 10px;
+    padding: 30px;
 }
 .contener h1{
     text-align: center;
     font-size: 40px;
     color:#311104;
+
 }
 .box input{
     width: 40%;
@@ -29,6 +31,9 @@ body{
     border-radius: 6px;
     padding: 10px;
 
+}
+.box input:hover{
+    border: 2px solid rgb(160, 194, 216);
 }
 .box button{
     width: 25%;
